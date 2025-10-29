@@ -3,7 +3,8 @@ server:
 
 eureka:
   instance:
-    preferIpAddress: true
+    hostname: localhost
+    preferIpAddress: false
   client:
     registerWithEureka: true
     fetchRegistry: true
